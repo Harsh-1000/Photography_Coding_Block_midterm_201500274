@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 2.5rem;
+    color:#29d9d5;
+}
+
+.logo p{
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.btn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: 3px solid #29d9d5;
+    background: transparent;
+    color:#29d9d5;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+
+.content{
+    width: 100%;
+    height: 90vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first
+{
+    width: 80%;
+    height: 90vh;
+    background-color: 30%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+
+footer{
+    width: 100%;
+    height: 80vh;
+}
+
+.foot1
+{
+    width: 100%;
+    height: 50%;
+    background-image: url("./img/dark-theme-wf4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+.foot1 h3
+{
+    color: white;
+    font-size: 50px;
+}
+
+.foot1 p{
+    color: rgba(255, 255, 255, 0.886);
+    margin-top: 2px;
+}
+
+
+.foot1 #start
+{
+   color: #29d9d5;
+   font-size: 20px;
+}
+
+.foot1  .btn
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.foot2
+{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+}
+
+.c1
+{
+    width: 33%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.c1 h4{
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.c1 p
+{
+    margin-top: 20px;
+}
